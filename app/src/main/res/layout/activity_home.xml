@@ -7,20 +7,22 @@
     tools:context=".HomeActivity">
 
 
-    <TextView
-        android:id="@+id/tvHome"
+    <Button
+        android:id="@+id/btnLogout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:ems="10"
-        android:textSize="30dp"
+        android:inputType="textPersonName"
         android:text="Home"
         android:textAlignment="center"
-        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:backgroundTint="@android:color/tertiary_text_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.121" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
